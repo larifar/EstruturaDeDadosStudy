@@ -1,4 +1,4 @@
-package challenge.FilaDuplamenteEncadeada;
+package challenge.dados.Fila.FilaDuplamenteEncadeada;
 
 
 public class FilaDuplamenteEncadeadaTest {

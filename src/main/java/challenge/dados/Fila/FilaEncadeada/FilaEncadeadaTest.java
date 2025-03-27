@@ -1,4 +1,4 @@
-package challenge.FilaEncadeada;
+package challenge.dados.Fila.FilaEncadeada;
 public class FilaEncadeadaTest {
     private static class Node{
         public Node proximo;

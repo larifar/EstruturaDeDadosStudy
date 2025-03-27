@@ -1,7 +1,7 @@
 package challenge;
 
-import challenge.FilaDuplamenteEncadeada.FilaDuplamenteEncadeadaTest;
-import challenge.FilaEncadeada.FilaEncadeadaTest;
+import challenge.dados.Fila.FilaDuplamenteEncadeada.FilaDuplamenteEncadeadaTest;
+import challenge.dados.Fila.FilaEncadeada.FilaEncadeadaTest;
 
 public class Main {
     public static void main(String[] args) {
