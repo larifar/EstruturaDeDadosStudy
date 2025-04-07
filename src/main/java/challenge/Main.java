@@ -4,7 +4,9 @@ import challenge.dados.Fila.FilaDuplamenteEncadeada.FilaDuplamenteEncadeadaTest;
 import challenge.dados.Fila.FilaEncadeada.FilaEncadeadaTest;
 import challenge.ordenacao.bubble.AlgoritmoBubble;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 
 public class Main {
@@ -30,9 +32,10 @@ public class Main {
 //        dupla.pop();
 //        System.out.println(dupla.list());
 
-        List<Integer> desordenado = Arrays.asList(5, 2, 6, 4, 1, 3);
+        ArrayList<Integer> desordenado = new ArrayList<>(Arrays.asList(5, 2, 6, 4, 1, 3));
         System.out.println("Antes de ordenar: " + desordenado);
-        System.out.println("Ordenado: " + new AlgoritmoBubble().bubbleSort(desordenado));
+        new AlgoritmoBubble().bubbleSort(desordenado);
+        System.out.println("Ordenado: " + desordenado);
 
     }
 }
